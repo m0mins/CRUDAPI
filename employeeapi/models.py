@@ -10,5 +10,5 @@ class Employee(models.Model):
     # emp_code=models.SlugField(max_length=255)
     mobile=models.CharField(max_length=15)
     random_number=models.SlugField(max_length=255)
-    image = models.ImageField(upload_to=nameFile, blank=True, null=True)
+    image = models.ImageField(upload_to=nameFile, blank=True, null=True)   
     

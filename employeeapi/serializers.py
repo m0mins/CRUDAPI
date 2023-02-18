@@ -24,5 +24,6 @@ class EmployeeSerializer(serializers.ModelSerializer):
                     ]
                 }
             }
+        
     def validate_random_number(self, val):
         return val or generate_slug()           
